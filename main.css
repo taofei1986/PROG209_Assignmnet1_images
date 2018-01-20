@@ -1,0 +1,52 @@
+div#gameHeader{
+    margin: 150px auto 0;
+    background-color: #88b47f;
+    height: 60px;
+    width: 1000px;
+}
+div#gameHeader h2{
+    margin: 0;
+    padding: 15px 0 0 50px;
+}
+div#gameArea{
+    margin: 0 auto;
+    width: 1000px;
+    height: 750px;
+}
+div#gameDisplay{
+    width: 750px;
+    height: 750px;
+    background-image: url("map.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    float: left;
+
+}
+#sprite{
+    position: relative;
+    width: 96px;
+    top: 240px;
+    left:270px;
+}
+div#gameControl{
+    width: 250px;
+    height: 750px;
+    background-color: #fdcec6;
+    float: left;
+    text-align: center;
+}
+div#gameControl button{
+    margin: 2px auto;
+    display: block;
+}
+div#gameFooter{
+    margin: 0 auto;
+    background-color: #bdb76b;
+    height: 40px;
+    width: 1000px;
+    text-align: center;
+}
+div#gameFooter h3{
+    margin: 0;
+    padding: 2px;
+}
